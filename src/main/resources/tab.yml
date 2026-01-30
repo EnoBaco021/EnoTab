@@ -1,0 +1,37 @@
+# EnoTab - Tab Yapılandırması
+# Web Panel: http://localhost:6969
+
+# Header ayarları
+header:
+  text: "&6&l✦ EnoTab Sunucu ✦\n&7Hoş geldiniz!"
+  animated: false
+  frames:
+    - "&6&l✦ EnoTab Sunucu ✦"
+    - "&e&l✦ EnoTab Sunucu ✦"
+    - "&f&l✦ EnoTab Sunucu ✦"
+
+# Footer ayarları
+footer:
+  text: "&7━━━━━━━━━━━━━━━━━━━━━━━\n&eOyuncular: &f%online%&7/&f%max% &8| &eTPS: &f%tps%\n&7━━━━━━━━━━━━━━━━━━━━━━━"
+  animated: false
+  frames:
+    - "&7Ping: &a%ping%ms"
+    - "&7TPS: &a%tps%"
+    - "&7Oyuncular: &a%online%"
+
+# Oyuncu formatı
+player:
+  format: "&f%player%"
+
+# Animasyon ayarları
+animation:
+  interval: 20  # tick cinsinden (20 tick = 1 saniye)
+
+# Güncelleme ayarları
+update:
+  interval: 40  # tick cinsinden
+
+# Görüntüleme ayarları
+display:
+  ping: true
+  health: false

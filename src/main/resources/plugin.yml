@@ -1,0 +1,19 @@
+name: EnoTab
+version: 1.0-SNAPSHOT
+main: org.example.enotab.EnoTab
+api-version: 1.20
+author: EnoTab
+description: Gelişmiş web konfigürasyon panelli tab plugini
+
+commands:
+  enotab:
+    description: EnoTab yönetim komutu
+    usage: /enotab <reload|update|web|setheader|setfooter>
+    permission: enotab.admin
+    aliases: [etab, tab]
+
+permissions:
+  enotab.admin:
+    description: EnoTab yönetici izni
+    default: op
+

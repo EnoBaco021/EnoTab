@@ -1,0 +1,9 @@
+# EnoTab Configuration
+
+# Web Panel Settings
+web:
+  port: 6969
+  enabled: true
+  # Admin giriş bilgileri
+  username: admin
+  password: admin123
